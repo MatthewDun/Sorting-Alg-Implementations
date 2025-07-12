@@ -18,7 +18,4 @@ proj3B_deque.o: proj3B_deque.c proj3B_deque.h
 clean:
 	rm -f $(OBJECTS) $(TARGET)
 
-tarball:
-	tar -zcvf proj3B.tgz proj3B.c proj3B_deque.h proj3B_deque.c proj3B_input.scr proj3B_output.txt Makefile
-
 .PHONY: all clean tarball
